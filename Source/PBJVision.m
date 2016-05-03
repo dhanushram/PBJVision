@@ -2291,7 +2291,7 @@ typedef void (^PBJVisionBlock)();
             
             [self _enqueueBlockOnMainQueue:^{
                 if ([_delegate respondsToSelector:@selector(vision:didCaptureVideoSampleBuffer:)]) {
-                    [_delegate vision:self didCaptureVideoSampleBuffer:bufferToWrite];
+                    [_delegate vision:self didCaptureVideoSampleBuffer:nil];
                 }
             }];
         
@@ -2301,7 +2301,7 @@ typedef void (^PBJVisionBlock)();
             
             [self _enqueueBlockOnMainQueue:^{
                 if ([_delegate respondsToSelector:@selector(vision:didCaptureAudioSample:)]) {
-                    [_delegate vision:self didCaptureAudioSample:bufferToWrite];
+                    [_delegate vision:self didCaptureAudioSample:nil];
                 }
             }];
         
