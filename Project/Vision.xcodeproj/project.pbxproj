@@ -243,7 +243,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = PBJ;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Patrick Piemonte";
 			};
 			buildConfigurationList = 0683D1B9179F2E1700EE66D6 /* Build configuration list for PBXProject "Vision" */;
@@ -322,6 +322,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06B7D021179F2EDC00F3F527 /* Debug.xcconfig */;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
