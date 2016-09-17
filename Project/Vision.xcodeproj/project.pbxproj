@@ -247,7 +247,7 @@
 				ORGANIZATIONNAME = "Patrick Piemonte";
 				TargetAttributes = {
 					0683D1BD179F2E1700EE66D6 = {
-						DevelopmentTeam = WPFGSL5BLN;
+						DevelopmentTeam = H6M6C64EKJ;
 					};
 				};
 			};
@@ -327,6 +327,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 06B7D021179F2EDC00F3F527 /* Debug.xcconfig */;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -345,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = WPFGSL5BLN;
+				DEVELOPMENT_TEAM = H6M6C64EKJ;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickpiemonte.${PRODUCT_NAME:rfc1034identifier}";
 				PROVISIONING_PROFILE = "";
 			};
@@ -357,7 +358,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = WPFGSL5BLN;
+				DEVELOPMENT_TEAM = H6M6C64EKJ;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickpiemonte.${PRODUCT_NAME:rfc1034identifier}";
 				PROVISIONING_PROFILE = "";
 			};
