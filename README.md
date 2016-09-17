@@ -2,38 +2,37 @@
 
 ## PBJVision
 
-`PBJVision` is an iOS camera engine library that allows easy integration of special capture features and camera customization in your iOS app.
+`PBJVision` is a camera library for iOS that enables easy integration of special capture features and camera interface customizations in your iOS app.
 
 [![Build Status](https://api.travis-ci.org/piemonte/PBJVision.svg?branch=master)](https://travis-ci.org/piemonte/PBJVision)
 [![Pod Version](https://img.shields.io/cocoapods/v/PBJVision.svg?style=flat)](http://cocoadocs.org/docsets/PBJVision/)
+
+- Looking for a Swift version? Check out [Next Level](https://github.com/NextLevel/NextLevel).
+- Looking for a video player? Check out [Player (Swift)](https://github.com/piemonte/player) and [PBJVideoPlayer (obj-c)](https://github.com/piemonte/PBJVideoPlayer).
 
 ### Features
 - [x] touch-to-record video capture
 - [x] slow motion capture (120 fps on [supported hardware](https://www.apple.com/iphone/compare/))
 - [x] photo capture
-- [x] customizable UI and user interactions
+- [x] customizable user interface and gestural interactions
 - [x] ghosting (onion skinning) of last recorded segment
 - [x] flash/torch support
 - [x] white balance, focus, and exposure adjustment support
 - [x] mirroring support
 
-Capture is possible without having to use the touch-to-record gesture interaction as the sample project provides.
-
-If you need a video player, check out [PBJVideoPlayer (obj-c)](https://github.com/piemonte/PBJVideoPlayer) and [Player (Swift)](https://github.com/piemonte/player).
+Capture is also possible without having to use the touch-to-record gesture interaction as the sample project provides.
 
 Contributions are welcome!
 
 ### About
 
-This library was originally created at [DIY](https://diy.org/) as a fun means for young people to author video and share their [skills](https://diy.org//skills). The touch-to-record interaction was originally pioneered by [Vine](https://vine.co/) and [Instagram](https://instagram.com/).
+This library was originally created at [DIY](https://diy.org/) as a fun means for kids to author video and share their [skills](https://diy.org//skills). The touch-to-record interaction was originally pioneered by [Vine](https://vine.co/) and [Instagram](https://instagram.com/).
 
 Thanks to everyone who has contributed and helped make this a fun project and community.
 
-## Installation
+## Quick Start
 
-### CocoaPods
-
-`PBJVision` is available and recommended for installation using the Cocoa dependency manager [CocoaPods](https://cocoapods.org/). 
+`PBJVision` is available and recommended for installation using the dependency manager [CocoaPods](https://cocoapods.org/). 
 
 To integrate, just add the following line to your `Podfile`:
 
@@ -166,12 +165,14 @@ To adjust the video quality and compression bit rate, modify the following prope
 
 ## Resources
 
+* [Next Level](https://github.com/NextLevel/NextLevel/), rad media capture in Swift
 * [AV Foundation Programming Guide](https://developer.apple.com/library/ios/documentation/AudioVideo/Conceptual/AVFoundationPG/Articles/00_Introduction.html)
 * [AV Foundation Framework Reference](https://developer.apple.com/library/ios/documentation/AVFoundation/Reference/AVFoundationFramework/)
 * [objc.io Camera and Photos](https://www.objc.io/issues/21-camera-and-photos/)
-* [objc.io Video] (https://www.objc.io/issues/23-video/)
-* [PBJVideoPlayer, a simple iOS video player in Objective-C](https://github.com/piemonte/PBJVideoPlayer)
-* [Player, a simple iOS video player in Swift](https://github.com/piemonte/player)
+* [objc.io Video](https://www.objc.io/issues/23-video/)
+* [Player](https://github.com/piemonte/player), a simple iOS video player in Swift
+* [PBJVideoPlayer](https://github.com/piemonte/PBJVideoPlayer), a simple iOS video player in Objective-C
+* [SCRecorder](https://github.com/rflex/SCRecorder), another great obj-c suite of media tools
 
 ## License
 
